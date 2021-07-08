@@ -52,7 +52,7 @@ public class Model {
     public class data{
         String id;
         String email;
-        String fist_name;
+        String first_name;
         String last_name;
         String avatar;
 
@@ -72,12 +72,12 @@ public class Model {
             this.email = email;
         }
 
-        public String getFist_name() {
-            return fist_name;
+        public String getFirst_name() {
+            return first_name;
         }
 
-        public void setFist_name(String fist_name) {
-            this.fist_name = fist_name;
+        public void setFirst_name(String first_name) {
+            this.first_name = first_name;
         }
 
         public String getLast_name() {
